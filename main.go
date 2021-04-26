@@ -35,7 +35,7 @@ func convert(n string) {
 
 
 func main(){
-	for i := 0; i < len(os.Args); i++ {
+	for i := 1; i < len(os.Args); i++ {
 		convert(os.Args[i])
 		if i != len(os.Args)-1 {
 			fmt.Print(",")
