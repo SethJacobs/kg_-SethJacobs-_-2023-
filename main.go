@@ -32,8 +32,6 @@ func convert(n string) {
 
 }
 
-
-
 func main(){
 	for i := 1; i < len(os.Args); i++ {
 		convert(os.Args[i])
